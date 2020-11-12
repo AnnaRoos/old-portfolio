@@ -375,14 +375,16 @@ h2 {
 /*   border: 5px solid black;
   border-radius: 15%; */
   width: 95%;
+}
 
+.arrow-desktop {
+  display: none;
 }
 
 #skomakeriet-logo {
   width: 60vw;
   display: block;
   margin: 0 auto;
-
 }
 
 
@@ -789,6 +791,14 @@ h2 {
 .gallery-enter-title {
   display: inline-block;
   text-align: left;
+}
+
+.arrow-mobile {
+  display: none;
+}
+
+.arrow-desktop {
+  display: inline;
 }
 
 #skomakeriet-logo {
