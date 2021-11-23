@@ -523,13 +523,13 @@ h2 {
   .plant {
     grid-column: 9 / 12;
     grid-row: 3 / 5;
-    width: 25vw;
+    max-width: 25vw;
     display: block;
     align-self: start;
   }
 
   #plant-video {
-    width: 25vw;
+    max-width: 25vw;
   }
 
   .plant-title {
@@ -893,12 +893,12 @@ h2 {
     grid-column: 9 / 12;
     grid-row: 3 / 5;
     height: 60vh;
-    width: 17vw;
+    max-width: 17vw;
     display: block;
   }
 
   #plant-video {
-    width: 17vw;
+    max-width: 17vw;
   }
 
   .plant-title {
